@@ -1,0 +1,15 @@
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.csproj.AssemblyReference.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.AssemblyInfoInputs.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.AssemblyInfo.cs
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.csproj.CoreCompileInputs.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/bin/Debug/net7.0/cs_webapi_experiment.Core.deps.json
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/bin/Debug/net7.0/cs_webapi_experiment.Core.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/bin/Debug/net7.0/cs_webapi_experiment.Core.pdb
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/bin/Debug/net7.0/cs_webapi_experiment.Data.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/bin/Debug/net7.0/cs_webapi_experiment.Data.pdb
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.csproj.CopyComplete
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/refint/cs_webapi_experiment.Core.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/cs_webapi_experiment.Core.pdb
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Core/obj/Debug/net7.0/ref/cs_webapi_experiment.Core.dll

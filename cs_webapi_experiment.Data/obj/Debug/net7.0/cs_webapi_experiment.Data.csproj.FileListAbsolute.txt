@@ -1,0 +1,12 @@
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/bin/Debug/net7.0/cs_webapi_experiment.Data.deps.json
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/bin/Debug/net7.0/cs_webapi_experiment.Data.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/bin/Debug/net7.0/cs_webapi_experiment.Data.pdb
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.csproj.AssemblyReference.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.AssemblyInfoInputs.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.AssemblyInfo.cs
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.csproj.CoreCompileInputs.cache
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/refint/cs_webapi_experiment.Data.dll
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/cs_webapi_experiment.Data.pdb
+/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs_webapi_experiment.Data/obj/Debug/net7.0/ref/cs_webapi_experiment.Data.dll

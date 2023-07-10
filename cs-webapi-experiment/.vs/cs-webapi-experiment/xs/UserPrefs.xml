@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{AE660569-45AB-4777-B5DE-2CF8F37260DE}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/shradayshakya/Repositories/Workspace/cs_webapi/cs-webapi-experiment/Controllers/WeatherForecastController.cs" relfile="Controllers/WeatherForecastController.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cs-webapi-experiment">
+            <Node name="cs_webapi_experiment.Data" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.cs-webapi-experiment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

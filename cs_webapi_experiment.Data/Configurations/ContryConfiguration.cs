@@ -1,0 +1,39 @@
+﻿using System;
+using System.Reflection.Emit;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace cs_webapi_experiment.Data.Configurations
+{
+	public class ContryConfiguration: IEntityTypeConfiguration<Country>
+    {
+        public void Configure(EntityTypeBuilder<Country> builder)
+        {
+            builder.HasData(
+                            new Country
+                            {
+                                Id = 1,
+                                Name = "Jamaica",
+                                ShortName = "JM"
+                            },
+
+                               new Country
+                               {
+                                   Id = 2,
+                                   Name = "Bahamas",
+                                   ShortName = "BS"
+                               },
+
+                                new Country
+                                {
+                                    Id = 3,
+                                    Name = "Cayman Island",
+                                    ShortName = "CI"
+                                }
+
+                            );
+        }
+    }
+}
+
