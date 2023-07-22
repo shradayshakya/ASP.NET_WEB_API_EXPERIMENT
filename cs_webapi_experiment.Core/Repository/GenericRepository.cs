@@ -2,8 +2,10 @@
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using cs_webapi_experiment.Core.Contracts;
+using cs_webapi_experiment.Core.Exception;
 using cs_webapi_experiment.Core.Model;
 using cs_webapi_experiment.Data;
+using Microsoft.Build.Execution;
 using Microsoft.EntityFrameworkCore;
 
 namespace cs_webapi_experiment.Core.Repository
@@ -25,10 +27,15 @@ namespace cs_webapi_experiment.Core.Repository
             await _context.SaveChangesAsync();
             return entity;
         }
-
         public async Task DeleteAsync(int id)
         {
             var entity = await GetAsync(id);
+
+            if (entity is null)
+            {
+                throw new NotFoundException(typeof(T).Name, id);
+            }
+
             _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
 
@@ -65,15 +72,52 @@ namespace cs_webapi_experiment.Core.Repository
 
         public async Task<T> GetAsync(int? id)
         {
-            if (id is null)
+            var entity = await _context.Set<T>().FindAsync(id);
+
+            if (entity is null)
             {
-                return null;
+                throw new NotFoundException(typeof(T).Name, id);
             }
-            return await _context.Set<T>().FindAsync(id);
+            return entity;
+        }
+
+        public async Task<TResult> AddAsync<TSource, TResult>(TSource source)
+        {
+            var entity = _mapper.Map<T>(source);
+            await _context.AddAsync(entity);
+            await _context.SaveChangesAsync();
+
+            return _mapper.Map<TResult>(entity);
+        }
+
+
+        public async Task<TResult> GetAsync<TResult>(int? id)
+        {
+            var entity = await _context.Set<T>().FindAsync(id);
+
+            if (entity is null)
+            {
+                throw new NotFoundException(typeof(T).Name, id);
+            }
+            return _mapper.Map<TResult>(entity);
         }
 
         public async Task UpdateAsync(T entity)
         {
+            _context.Update(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync<TSource>(int id, TSource source)
+        {
+            var entity = await GetAsync(id);
+
+            if (entity == null)
+            {
+                throw new NotFoundException(typeof(T).Name, id);
+            }
+
+            _mapper.Map(source, entity);
             _context.Update(entity);
             await _context.SaveChangesAsync();
         }
